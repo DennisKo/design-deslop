@@ -1,10 +1,10 @@
 # Design Deslop
 
-An agent skill that improves interfaces with five specialist tasks, one at a time:
+An agent skill that improves interfaces through five review areas, one at a time:
 
 **Copy → Layout → Typography → Color → Decoration**
 
-Each specialist finds useful improvements, makes changes, and checks the result. It gives the manager a short list of completed work. The manager checks the changes and sends current source paths and screenshots to the next specialist.
+For a small interface, one reviewer checks all five areas in sequence. Separate specialist agents are optional. Each reviewer finds useful improvements, makes changes, and records which pages, screen sizes, and states were checked. When specialists are used, the manager supplies current source paths and screenshots. Each specialist must confirm that it opened the images before making visual judgments.
 
 ## Install
 
@@ -50,14 +50,14 @@ These patterns describe design preferences. They do not prove that AI made the i
 
 ## Requirements
 
-Use an agent with tools that can edit source files. Each task uses a separate subagent when available. If subagents are unavailable, the main agent completes the tasks in sequence and reports this limit. Browser or screenshot tools help with visual checks. The agent must report checks that it cannot complete.
+Use an agent with tools that can edit source files. Subagents are optional. Browser or screenshot tools help with visual checks. The agent must report checks that it cannot complete, including affected screen states it did not inspect.
 
 The package uses the standard `SKILL.md` format. The `agents/openai.yaml` file contains Codex interface settings. The main instructions do not require specific Codex tool names.
 
 ## Files
 
 - [Skill instructions](skills/design-deslop/SKILL.md)
-- [Specialist references](skills/design-deslop/references)
+- [Review references](skills/design-deslop/references)
 - [Codex metadata](skills/design-deslop/agents/openai.yaml)
 
 The package contains instructions and an icon. It contains no application code and requires no additional runtime package.
