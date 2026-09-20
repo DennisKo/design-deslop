@@ -1,0 +1,13 @@
+interface:
+  display_name: Design Deslop
+  short_description: "Improve designs through sequential specialist passes"
+  default_prompt: "Use $design-deslop to send one specialist subagent at a time to find, implement, and check design improvements, then pass its short done-list to the next specialist."
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
