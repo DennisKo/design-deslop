@@ -1,7 +1,7 @@
 interface:
   display_name: Design Deslop
-  short_description: "Improve designs through sequential specialist passes"
-  default_prompt: "Use $design-deslop to send one specialist subagent at a time to find, implement, and check design improvements, then pass its short done-list to the next specialist."
+  short_description: "Improve designs with one specialist task at a time"
+  default_prompt: "Use $design-deslop to improve this interface. Send one specialist subagent at a time to make and check changes. Give its work list to the next specialist."
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

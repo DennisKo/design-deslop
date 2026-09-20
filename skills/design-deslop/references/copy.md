@@ -1,32 +1,34 @@
-# Useful UI copy
+# Interface text
 
-Inspect and improve the copy in the current interface. Work within the manager’s assignment and preserve earlier decisions. In implementation mode, edit the product and verify the result; in review-only mode, return recommendations.
+Inspect and improve the interface text within the assigned task. Keep earlier decisions. Make changes and check the result unless the user requested review only.
 
-Treat whitespace as intentional. Every visible string must help someone understand, decide, act, recover, trust, or access the interface. Do not add text to fill a gap, balance a composition, suggest luxury, or imitate editorial design.
+Empty space can be intentional. Each visible text item must help users understand, decide, act, recover, trust, or use the interface. Do not add text only to fill space or make the design look expensive.
 
-## What to inspect
+## Inspect
 
-Inspect headings, eyebrow labels, badges, captions, helper text, placeholders, empty states, status text, footer copy, and peripheral annotations. Look in rendered screens and, when available, components and localization resources. Include interactive states, not just the first screen.
+Check headings, labels above headings, badges, captions, help text, placeholders, status messages, and footer text. Check empty screens and control states. Read the displayed interface, components, and translation files when available.
 
-Flag text that:
+Find text that:
 
-- repeats a nearby heading, label, value, button, or obvious visual;
-- consists of vague slogans, mood fragments, pseudo-profound asides, or unsolicited quotes;
-- narrates the interface without helping someone use it;
-- boasts about implementation details irrelevant to a user decision;
-- labels decoration or exists because a region looked empty;
-- adds an eyebrow above every headline without a useful category or context.
+- Repeats a nearby heading, label, value, or control.
+- Uses a vague slogan, unrelated quotation, or sentence with no useful meaning.
+- Describes the interface without helping the user.
+- Makes technical claims that do not help a user decision.
+- Labels decoration or fills an empty area.
+- Adds a label above a heading without useful information.
 
-Preserve navigation, control labels, necessary context, meaningful progress and results, useful error recovery, and explanations of consequences. Preserve accessible names, legal obligations, factual content with a clear purpose, and brand storytelling explicitly required by the brief. Do not invent claims or remove qualifications to make copy shorter.
+Keep navigation, control labels, necessary context, progress information, results, and recovery instructions. Keep explanations of action results, accessible names, required legal text, and useful facts. Keep brand descriptions that the user requires. Do not invent claims or remove necessary conditions to shorten text.
 
-## Improvements
+## Improve
 
-Prefer deleting filler over rephrasing it. Consolidate repeated guidance and place useful help beside the action it supports. Recommend spacing, grouping, alignment, or hierarchy repairs after deletion; never replace the removed text with another decorative sentence. Coordinate these repairs with the layout module. Coordinate the visual treatment of useful eyebrow labels with the typography module.
+Delete unnecessary text instead of writing another version of it. Combine repeated help and put it near the applicable action. Correct small spacing or alignment problems after deletion. Tell the manager about larger layout or typography changes required by the text changes.
 
-For a candle interface, retain `Flame intensity`, `Wax color`, and `Extinguish candle`. Flag unsolicited `A moment of stillness`, `A small ritual. Just for you.`, and `Rendered in real time` unless the brief establishes a concrete purpose.
+Do not replace deleted text with another decorative sentence.
 
-## Return
+For a candle interface, keep `Flame intensity`, `Wax color`, and `Extinguish candle`. Check whether phrases such as `A moment of stillness` and `Rendered in real time` have a useful purpose.
 
-Include important wording changes and any content dependencies in the handoff. State when evidence is unavailable. Do not impose an arbitrary word limit or remove necessary guidance in pursuit of minimalism.
+## Report
 
-Return the short specialist handoff defined in SKILL.md: completed changes, files, checks, and any limits or dependencies. In review-only mode, report recommendations instead. Do not create report files or start another round of subagents.
+Use the short work-list format in SKILL.md. Include important text changes, checks, and information required by later tasks. Identify missing evidence. Do not use an arbitrary word limit that removes necessary help.
+
+For review-only requests, return recommendations. Do not create report files or more subagents.

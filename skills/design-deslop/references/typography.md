@@ -1,22 +1,28 @@
-# Typography and hierarchy
+# Text styles
 
-Inspect and improve typography in the current layout. Implement and verify changes within the manager’s assignment unless the user requested review only. Preserve earlier content and structural decisions.
+Inspect and improve typography in the current layout. Make changes and check the result unless the user requested review only. Keep earlier content and layout decisions.
 
-## Detect
+## Inspect
 
-- Identify font families in use, including inherited stacks and display/body pairings. Flag Geist, Inter, Manrope, DM Sans, Satoshi, and Instrument Serif for replacement by default. These are the user's unwanted defaults; their presence is evidence of a preference mismatch, not proof that a font is inherently bad.
-- Find large all-uppercase words or eyebrow labels placed above headlines. Look for oversized tracking, excessive weight, or a second headline competing with the actual headline.
-- Check whether display styling overwhelms navigation, controls, data, and body text, or whether too many sizes and weights obscure hierarchy.
+Identify active font families, inherited font settings, and fonts used for headings and body text.
+
+The following fonts are unwanted defaults: Geist, Inter, Manrope, DM Sans, Satoshi, and Instrument Serif. Replace them unless the user requires them. This is a design preference, not a claim that these fonts are defective.
+
+Find large uppercase labels above headings. Check excessive letter spacing, heavy text, and labels that compete with the main heading.
+
+Make sure that heading styles do not make navigation, controls, data, and body text difficult to read. Check whether too many sizes or weights make the text order unclear.
 
 ## Improve
 
-1. Establish the product's audience, reading needs, character, and existing brand requirements before recommending a type direction. Preserve explicitly mandated brand fonts and report that constraint.
-2. Choose a suitable alternative from available, supported, appropriately licensed fonts or a well-chosen system stack. Avoid replacing every rejected family with another habitual favorite. Account for required languages, weights, numeric forms, loading cost, and fallback metrics. Do not introduce a paid dependency or unsupported font asset merely to appear distinctive.
-3. Use a restrained, coherent scale and pair families only when the pairing serves a clear purpose. Adjust size, weight, line height, measure, and spacing together; a font swap alone is insufficient.
-4. Replace oversized uppercase pre-headlines with quiet sentence-case labels when the label provides useful orientation. Let the actual headline lead. Send redundant-label removal to the copy module; do not invent replacement text to occupy the same space.
+1. Identify users, reading needs, and brand requirements. Keep fonts that the user requires.
+2. Select a suitable available font or system font set. Make sure that its license permits the intended use. Check required languages, weights, number styles, loading time, and replacement fonts. Do not add a paid dependency or unavailable font only to make the design different.
+3. Use a consistent set of text sizes. Combine font families only when this has a clear purpose. Adjust size, weight, line height, line length, and spacing together.
+4. Replace large uppercase labels with smaller sentence-case labels when the labels contain useful information. Keep the main heading most prominent. Preserve required uppercase text, such as acronyms. Report unnecessary labels to the manager; do not invent replacement text.
 
-## Verify and report
+## Check and report
 
-Check the result against small screens, long headings, readable body text, visible control labels, and fallback wrapping. Report changes and remaining dependencies. Preserve meaningful casing such as acronyms. Flag missing font assets or unverified language coverage instead of claiming readiness. Verify actual font loading and rendered hierarchy where preview access permits; otherwise request evidence from the manager.
+Check narrow screens, long headings, body text, control labels, and wrapping when replacement fonts are used. Identify missing font files and language support that was not checked.
 
-Return the short specialist handoff defined in SKILL.md: completed changes, files, checks, and any limits or dependencies. In review-only mode, report recommendations instead. Do not create report files or start another round of subagents.
+Check actual font loading and displayed text order when preview access is available. Otherwise, request images or other evidence from the manager.
+
+Use the short work-list format in SKILL.md. Include changes, checks, and remaining work. For review-only requests, return recommendations. Do not create report files or more subagents.

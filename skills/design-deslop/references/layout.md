@@ -1,25 +1,32 @@
-# Layout and grouping
+# Content arrangement
 
-Inspect and improve the current layout within the manager’s assignment. Implement useful structural changes and verify the result unless the user requested review only. Preserve content decisions from the Copy pass.
+Inspect and improve the current layout within the assigned task. Make changes and check the result unless the user requested review only. Keep content decisions from the Copy task.
 
-## Detect
+## Inspect
 
-- **Cardocalypse:** every heading, paragraph, statistic, or control occupies a separate card. Nested cards repeat backgrounds, outlines, padding, and corner treatments without expressing meaningful containment.
-- **Boxes in boxes:** colored panels inside outlined panels inside another section wrapper make the page harder to scan than the content requires. Identify which boundaries represent real groups and which merely decorate them.
-- **The three-counter strip:** three equally prominent adjacent numbers appear because the template expects a proof section. Look for redundant metrics, invented claims, missing context, and numbers disconnected from the user's decision.
+Find these patterns:
 
-Inspect the actual content hierarchy, interaction boundaries, reading order, responsive behavior, and existing design system before choosing a replacement.
+- A separate card for each heading, paragraph, number, or control.
+- Cards inside cards with repeated backgrounds, borders, and spacing that do not identify useful groups.
+- Colored panels inside outlined panels that make the page difficult to read.
+- Three equally large numbers included only because a template has space for them.
+
+Check content order, control groups, reading order, narrow layouts, and the existing design system. Identify useful boundaries before removing containers. Check numbers for repeated information, unsupported claims, and missing context.
 
 ## Improve
 
-Remove ornamental wrappers by default. Group related content with spacing, alignment, a shared heading, or a restrained divider. Use a plain list for related items, a table for comparisons, and a continuous section for one narrative. Preserve a card when it represents an independently actionable entity, such as a product or project, or when its boundary makes a genuine grouping clearer. Do not impose one replacement layout across every section.
+Remove containers that serve only as decoration. Group related content with spacing, alignment, a shared heading, or a simple divider. Use lists for related items and tables for comparisons. Keep continuous text together.
 
-Replace the reflexive three-counter strip with the presentation the evidence deserves. A single important measure can accompany its explanation; comparative measures may belong in a table or chart; supporting facts can sit beside the claim they substantiate. Preserve useful data, units, timeframes, and source context. Flag unsupported claims rather than inventing evidence or silently rewriting values. Three metrics may remain when their grouping supports a concrete decision.
+Keep a card when users can select or act on its item independently. A card can also remain when its boundary identifies a useful group. Do not apply one replacement layout to all sections.
 
-## Verify and report
+Select a suitable format for numbers. Put an explanation near a single important value. Use a table or chart for comparisons when useful. Put supporting facts near the related claim.
 
-Check that removing wrappers preserves reading order, control relationships, clickable targets, focus visibility, and responsive flow. Confirm that meaningful groups remain identifiable without decorative nesting and useful metrics remain available.
+Keep useful data, units, periods, and source information. Report unsupported claims. Do not invent evidence or change values without explanation. Three numbers can remain when they help a specific decision.
 
-Report structural changes and affected shared components. Pass any remaining typography, color, or decoration dependencies to the manager. State when an apparent pattern is justified and should remain.
+## Check and report
 
-Return the short specialist handoff defined in SKILL.md: completed changes, files, checks, and any limits or dependencies. In review-only mode, report recommendations instead. Do not create report files or start another round of subagents.
+After removing containers, check reading order, control groups, clickable areas, keyboard focus, and narrow layouts. Make sure that users can identify groups and find useful data.
+
+Use the short work-list format in SKILL.md. Identify structural changes, affected shared components, and work required by later tasks. Explain when an existing pattern has a useful purpose and should remain.
+
+For review-only requests, return recommendations. Do not create report files or more subagents.
