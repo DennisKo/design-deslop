@@ -5,11 +5,13 @@ description: Improve website and app designs. Remove unwanted patterns in text, 
 
 # Design Deslop
 
-Make the interface suitable for its users, content, and task. Remove the unwanted patterns listed below. These patterns describe design preferences. They do not prove that AI made the interface.
+Make the interface suitable for its users, content, and task. Check the patterns listed below for specific problems. These patterns describe design preferences. They are not automatic reasons for removal and do not prove that AI made the interface.
 
 Keep useful content, product functions, and accessibility features. Obey the user's design requirements. Keep required brand elements. An existing style is not automatically a requirement.
 
 Words such as “modern,” “premium,” and “polished” do not permit unwanted patterns. Do not replace the design with another standard template. Do not remove useful color, shape, or content.
+
+Fewer colors and less decoration are not goals by themselves. Keep visual choices that help users or give the product a distinct style. Give specialists the observed problem, intended result, and work limits. Let them choose a suitable correction within the user's requirements. Do not give broad instructions such as “reduce bright backgrounds” without identifying where those backgrounds cause a problem.
 
 ## Five review areas
 
@@ -17,7 +19,7 @@ Check the five areas in sequence. For a small interface, use one reviewer by def
 
 When using specialists, the main agent acts as manager. It controls the work limits, transfers information, and checks the final result. When working alone, the main agent also does the review work. References to the manager then mean decisions or follow-up work for that same agent.
 
-| Area | Reference | Patterns to remove or improve |
+| Area | Reference | Patterns to inspect |
 | --- | --- | --- |
 | Copy: interface text | [copy.md](references/copy.md) | Unnecessary slogans, repeated help, decorative captions, repeated labels, and unnecessary technical claims |
 | Typography: text styles | [typography.md](references/typography.md) | Unwanted default fonts, large uppercase labels above headings, and unclear text order |
@@ -33,11 +35,9 @@ Inspect the source and the displayed interface. Check desktop and narrow screen 
 
 A request to improve an editable interface permits changes within the requested work. Do not add an approval step for recommendations. For a review-only request, use the same sequence without edits. If only an image is available, explain that changes require editable source. Do not claim that the interface changed.
 
-Save useful screenshots before the first task. Record the page, screen size, interface state, and whether each image shows the interface before or after changes. Use absolute paths to screenshots and source files.
+Save useful screenshots before the first task. For full-page captures or before and after comparisons, read [screenshots.md](references/screenshots.md) before editing. Record the page, screen size, interface state, and whether each image shows the interface before or after changes. Use absolute paths to screenshots and source files.
 
-Check screenshots for missing content, cut edges, repeated sections, and incorrect image joins. Use a supported full-page capture method when necessary. If it fails, change the method or use labeled images of the visible page area. Do not repeat a failed capture method. Report when visual checks are not possible.
-
-If the user requests before and after screenshots, save the before image before changes. Use the same page width, scale, and interface state for the after image. The page height can change. Keep both files and show them in the final response.
+Inspect saved images before using them as evidence. Follow the screenshot reference if capture fails. Report when visual checks are not possible. Keep requested before and after images and show them with clear labels in the final response.
 
 ## Run the sequence
 
@@ -68,7 +68,7 @@ If a specialist cannot continue, correct the cause, complete the work with the m
 Give each specialist sufficient information to work independently:
 
 - **Goal and mode:** interface, intended users, user task, and change or review-only mode.
-- **Assignment:** one area, reference path, permitted files, shared components, and excluded work.
+- **Assignment:** one area, reference path, observed problems, intended result, permitted files, shared components, and excluded work. Do not prescribe a replacement style unless the user requires it.
 - **Requirements:** brand rules, content, functions, accessibility features, project rules, and existing edits to keep.
 - **Current state:** source paths, labeled screenshot paths, screen sizes, interface states, earlier work lists, and decisions to keep. Require confirmation that the images were opened.
 - **Tools and checks:** known preview, build, and test commands; required checks; and how to request missing images.
@@ -79,6 +79,8 @@ Supply only applicable information and references. Do not request complete packa
 ## Inspect, change, check
 
 Read the current source and inspect the supplied images before changes. Use the reference as design guidance. Do not treat it as a required number of defects. Keep useful design choices. Explain when no change is necessary.
+
+Before each removal, identify the element, its current purpose, and the specific reason to remove it. A reason can be an observed problem or an explicit user requirement. “Cleaner,” “less busy,” and a match to a listed pattern are not sufficient reasons by themselves. Consider a smaller change that keeps the useful function or distinct style. If there is no specific reason, keep the element. This check does not require user approval.
 
 Make related changes within the assigned area. Include small spacing or container changes necessary to keep the interface usable. Specialists must not create more subagents. Keep work lists in the task context; do not create external report files. Do not expand the task into a full redesign.
 
@@ -96,7 +98,7 @@ For each area, keep a short work list in this format. Specialists return it to t
 
 **[Area] — Done** (or **No changes needed** / **Blocked**)
 
-- Changes completed and their reasons, usually 2–5 items.
+- Changes completed and their reasons. Include a specific reason for each removal. Group removals only when the same reason applies to all named elements.
 - Files changed.
 - Checks completed, results, and limits, including the record of pages, screen sizes, and states actually inspected.
 - Decisions or incomplete work for the next task, if applicable.
@@ -106,6 +108,8 @@ For review-only requests, use **[Area] — Recommendations**. List proposed chan
 ## Finish
 
 After all tasks, inspect the complete result at desktop and narrow screen sizes. Check affected control states. Check the content arrangement, text wrapping, font loading, contrast, keyboard focus, data, and labels. Run applicable function checks.
+
+Compare the result with the earlier interface. Ask both: “Is this clearer?” and “Did we remove something useful or distinctive?” Check the reasons for removals against the result. Restore or adjust elements when a change removed useful information, function, or distinct style without sufficient benefit or an explicit user requirement. If comparison evidence is missing, report that limit.
 
 Use previous check results when they remain valid. Repeat checks only when later changes could affect their results.
 

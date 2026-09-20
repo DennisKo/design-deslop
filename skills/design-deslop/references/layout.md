@@ -15,7 +15,7 @@ Check content order, control groups, reading order, narrow layouts, and the exis
 
 ## Improve
 
-Remove containers that serve only as decoration. Group related content with spacing, alignment, a shared heading, or a simple divider. Use lists for related items and tables for comparisons. Keep continuous text together.
+Remove containers when their boundaries or repeated styles cause a specific problem, such as unclear groups or reduced space for content. Decoration alone is not a sufficient reason for removal. Consider spacing, alignment, a shared heading, or a simple divider when these improve grouping. Use lists for related items and tables for comparisons when suitable. Keep continuous text together.
 
 Keep a card when users can select or act on its item independently. A card can also remain when its boundary identifies a useful group. Do not apply one replacement layout to all sections.
 

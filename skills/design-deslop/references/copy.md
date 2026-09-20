@@ -2,7 +2,7 @@
 
 Inspect and improve the interface text within the assigned task. Keep earlier decisions. Make changes and check the result unless the user requested review only.
 
-Empty space can be intentional. Each visible text item must help users understand, decide, act, recover, trust, or use the interface. Do not add text only to fill space or make the design look expensive.
+Empty space can be intentional. Check how text helps users understand, decide, act, recover, trust, or use the interface. Text can also give the product a distinct voice. Do not add text only to fill space or make the design look expensive.
 
 ## Inspect
 
@@ -21,7 +21,7 @@ Keep navigation, control labels, necessary context, progress information, result
 
 ## Improve
 
-Delete unnecessary text instead of writing another version of it. Combine repeated help and put it near the applicable action. Correct small spacing or alignment problems after deletion. Tell the manager about larger layout or typography changes required by the text changes.
+Remove text when there is a specific reason, such as repeated information that makes an action difficult to find. Check whether repeated help is useful at different points in a task before combining it. Keep useful context and the product's voice. Correct small spacing or alignment problems after deletion. Tell the manager about larger layout or typography changes required by the text changes.
 
 Do not replace deleted text with another decorative sentence.
 

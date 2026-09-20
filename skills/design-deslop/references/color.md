@@ -13,11 +13,11 @@ Find these patterns:
 
 ## Improve
 
-Remove these patterns when they serve only as decoration. Select colors that suit the product, users, brand, images, and content.
+Correct these patterns where they cause a specific problem. Select colors that suit the product, users, brand, images, and content. Bright colors and several background colors are not defects by themselves.
 
-Give background, text, action, and status colors clear purposes. Make the main action easy to find. Reduce color emphasis elsewhere when it competes with that action. Use a solid fill, simple border, or no border when sufficient.
+Give background, text, action, and status colors clear purposes. Keep colors that distinguish examples, identify content groups, highlight an action, or support the product's visual style. Make the main action easy to find. Before reducing another area's color emphasis, identify how it competes with that action or makes content difficult to read.
 
-Do not replace every purple interface with beige or a single-color design. Judge colors by their purpose and their relationship to nearby colors.
+Change the affected use of a color before removing that color from the whole interface. A smaller colored area or a different text color can correct the problem. Do not replace every purple interface with beige or a single-color design. Judge colors by their purpose and their relationship to nearby colors.
 
 Keep required brand colors and gradients. Keep gradients that show continuous data values or meet a specific visual requirement. Keep useful status differences and visible keyboard focus. Do not remove accessibility features to simplify the design.
 
@@ -27,6 +27,6 @@ Tell the manager if a color change affects container groups or necessary heading
 
 ## Report
 
-Use the short work-list format in SKILL.md. Include color changes, contrast checks, incomplete work, and check limits. Do not claim that accessibility checks passed unless they were completed.
+Use the short work-list format in SKILL.md. Explain the specific problem each color change corrects. Identify a change based on design preference as a choice, not a skill requirement. Include contrast checks, incomplete work, and check limits. Do not claim that accessibility checks passed unless they were completed.
 
 For review-only requests, return recommendations. Do not create report files or more subagents.

@@ -13,8 +13,8 @@ Find these patterns:
 
 ## Improve
 
-1. Remove icon backgrounds and large heading icons when they add no information. Keep useful icons. Match their size and alignment to nearby text. Keep accessible names for controls that contain only an icon.
-2. Use ordinary text without decorative side borders. Use spacing, headings, or existing text styles to identify groups. Keep distinct styles for alerts, quotations, and states when useful. Do not use color as the only signal.
+1. Adjust icon backgrounds and large heading icons when they compete with content or take space needed for the task. Keep icons that support recognition or a distinct style. Match their size and alignment to nearby text. Keep accessible names for controls that contain only an icon.
+2. Remove decorative side borders when they give the wrong emphasis or make groups unclear. Consider spacing, headings, or existing text styles when a change is needed. Keep distinct styles for alerts, quotations, and states when useful. Do not use color as the only signal.
 3. Use a small, consistent set of corner sizes. Match corners to component size and the product design. Keep pill shapes for suitable controls and labels. Do not remove all rounded corners automatically.
 4. Remove unnecessary shadows from static sections. Keep limited shadows for overlays, floating controls, and movable items when they help users understand position or operation. Use dividers, background contrast, or spacing when sufficient.
 

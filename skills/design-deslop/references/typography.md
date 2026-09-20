@@ -6,7 +6,7 @@ Inspect and improve typography in the current layout. Make changes and check the
 
 Identify active font families, inherited font settings, and fonts used for headings and body text.
 
-The following fonts are unwanted defaults: Geist, Inter, Manrope, DM Sans, Satoshi, and Instrument Serif. Replace them unless the user requires them. This is a design preference, not a claim that these fonts are defective.
+Check whether default fonts such as Geist, Inter, Manrope, DM Sans, Satoshi, and Instrument Serif suit the product and its reading needs. A font name alone is not a reason to replace it. Keep suitable fonts unless the user requests a change.
 
 Find large uppercase labels above headings. Check excessive letter spacing, heavy text, and labels that compete with the main heading.
 
@@ -15,9 +15,9 @@ Make sure that heading styles do not make navigation, controls, data, and body t
 ## Improve
 
 1. Identify users, reading needs, and brand requirements. Keep fonts that the user requires.
-2. Select a suitable available font or system font set. Make sure that its license permits the intended use. Check required languages, weights, number styles, loading time, and replacement fonts. Do not add a paid dependency or unavailable font only to make the design different.
+2. If a font change is needed, select a suitable available font or system font set. Make sure that its license permits the intended use. Check required languages, weights, number styles, loading time, and replacement fonts. Do not add a paid dependency or unavailable font only to make the design different.
 3. Use a consistent set of text sizes. Combine font families only when this has a clear purpose. Adjust size, weight, line height, line length, and spacing together.
-4. Replace large uppercase labels with smaller sentence-case labels when the labels contain useful information. Keep the main heading most prominent. Preserve required uppercase text, such as acronyms. Report unnecessary labels to the manager; do not invent replacement text.
+4. Adjust labels when their size or case makes reading difficult or competes with the main heading. Smaller sentence-case labels are one option. Keep useful information and required uppercase text, such as acronyms. Report unnecessary labels to the manager; do not invent replacement text.
 
 ## Check and report
 
