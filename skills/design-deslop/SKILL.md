@@ -113,4 +113,6 @@ Compare the result with the earlier interface. Ask both: “Is this clearer?” 
 
 Use previous check results when they remain valid. Repeat checks only when later changes could affect their results.
 
-Correct new defects directly, or return them to the responsible specialist with a specific correction task. Do not restart the full sequence. Report completed changes, checked pages, screen sizes and states, and important unchecked states in one short final response. Include requested before and after screenshots. Do not present five long reports or request approval for work already completed.
+Correct new defects directly, or return them to the responsible specialist with a specific correction task. Do not restart the full sequence.
+
+When all work is complete, start the final response with a short list of the changes made. For review-only requests, list recommendations instead. If no changes were needed, state this. Then briefly report checked pages, screen sizes and states, and important unchecked states. Include requested before and after screenshots. Do not present five long reports or request approval for work already completed.
